@@ -1,0 +1,21 @@
+.container {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 10%; 
+	text-align: center;
+}
+
+.jumbotron {
+	text-align: center;
+	color: yellow;
+
+}
+.panel panel-default {
+	color: white;
+
+}
+
+body {
+	background-image: url(http://kids.nationalgeographic.com/content/dam/kids/photos/animals/Birds/A-G/canada-goose-nesting-sitting.adapt.945.1.jpg);
+}
