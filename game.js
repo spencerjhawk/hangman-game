@@ -138,7 +138,6 @@ function winLose() {
     //change html
     document.getElementById('winCounter').innerHTML = winCount;
     alert('HONK HONK! You win!');
-    reset();
 
   }
   else if(guessesLeft === 0) {
@@ -147,7 +146,7 @@ function winLose() {
     //change html
     document.getElementById('lossCounter').innerHTML = loseCount;
     alert('HONK! HONK! You lose!');
-    reset ();
+    
   }
 }
 

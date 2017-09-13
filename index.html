@@ -10,6 +10,7 @@
 <body>
 <div class="container">
 		<div class="jumbotron">
+			<img src="https://media.tenor.com/images/2b80a1e120c11711732f09dea58978d6/tenor.gif">
 			<h1>HONKMAN</h1>
 			<p>A HANGMAN GAME FOR DUCKS AND GEESE</p>
 			<p>GUESS THE WORD THAT RELATES TO DUCKS AND GEESE</p>
@@ -18,36 +19,38 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h3 class="panel-title">Give It A Shot</h3>
-		</div>
-		<div class="panel-body">
+			</div>
+		<div>
+			<div class="panel-body">
 			<h2 id="wordToGuess">_ _ _ _ _ _ _</h2>
-		</div>
-	</div>
+			</div>
+			</div>
 	 
-	<div class="panel panel-default">
-	 	<div class="panel-body">
+			<div class="panel panel-default">
+	 		<div class="panel-body">
 	 		Wrong Guesses: <span id="wrongGuesses"></span>
-		</div>
-	</div>
+			</div>
+			</div>
 	
-	<div class="panel panel-default">
-		<div class="panel-body">
+			<div class="panel panel-default">
+			<div class="panel-body">
 			Guesses Left: <span id="numGuesses"></span>
-		</div>
-	</div>
+			</div>
+			</div>
 	
-	<div class="panel panel-default">
-		<div class="panel-body">
+			<div class="panel panel-default">
+			<div class="panel-body">
 			Wins: <span id="winCounter">0</span>
-		</div>
-	</div>
+			</div>
+			</div>
 	
-	<div class="panel panel-default">
-		<div class="panel-body">
+			<div class="panel panel-default">
+			<div class="panel-body">
 			Losses:  <span id="lossCounter">0</span>
+			</div>
+			</div>
+			<button onclick="reset()">Play Again</button>
 		</div>
-	</div>
-	
 </div>
 <script type="text/javascript" src="game.js"></script>	
 </body>
