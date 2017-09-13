@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/journal/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="honkstyle.css">
+	<title>HONKMAN!</title>
+</head>
+<body>
+<div class="container">
+		<div class="jumbotron">
+			<h1>HONKMAN</h1>
+			<p>A HANGMAN GAME FOR DUCKS AND GEESE</p>
+			<p>GUESS THE WORD THAT RELATES TO DUCKS AND GEESE</p>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Give It A Shot</h3>
+		</div>
+		<div class="panel-body">
+			<h2 id="wordToGuess">_ _ _ _ _ _ _</h2>
+		</div>
+	</div>
+	 
+	<div class="panel panel-default">
+	 	<div class="panel-body">
+	 		Wrong Guesses: <span id="wrongGuesses"></span>
+		</div>
+	</div>
+	
+	<div class="panel panel-default">
+		<div class="panel-body">
+			Guesses Left: <span id="numGuesses"></span>
+		</div>
+	</div>
+	
+	<div class="panel panel-default">
+		<div class="panel-body">
+			Wins: <span id="winCounter">0</span>
+		</div>
+	</div>
+	
+	<div class="panel panel-default">
+		<div class="panel-body">
+			Losses:  <span id="lossCounter">0</span>
+		</div>
+	</div>
+	
+</div>
+<script type="text/javascript" src="game.js"></script>	
+</body>
+</html>
